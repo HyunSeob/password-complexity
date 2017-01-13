@@ -15,4 +15,5 @@ evaluateComplexity('password');
 
 ## License
 MIT
+
 Based on jquery.complexify.js, copyright Dan Palmer.
