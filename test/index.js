@@ -1,5 +1,5 @@
 const assert = require('assert');
-const evaluateComplexity = require('../src/password-complexify.js')
+const evaluateComplexity = require('../dist/password-complexify.js')
 
 
 const empty = evaluateComplexity('');
