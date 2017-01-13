@@ -1,0 +1,21 @@
+{
+  "name": "password-complexify",
+  "description": "A light weight password complexity evaluator",
+  "main": "./src/password-complexify.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyunSeob/password-complexify.git"
+  },
+  "keywords": [
+    "password",
+    "password complexity",
+    "password strength",
+    "zxcvbn"
+  ],
+  "author": "HyunSeob <sytte1017@gmail.com> (http://hyunseob.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HyunSeob/password-complexify/issues"
+  },
+  "homepage": "https://github.com/HyunSeob/password-complexify"
+}
