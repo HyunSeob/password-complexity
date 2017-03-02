@@ -143,7 +143,7 @@ function additionalComplexityForCharset(str, charset) {
  * evaluateComplexity(password);
  */
 module.exports = function evaluateComplexity(password) {
-  if (bannedList.includes(password.toLowerCase())) return 1;
+  if (bannedList.indexOf(password.toLowerCase()) > -1) return 1;
 
   return Math.log(Math.pow(CHARSETS.reduce((score, charset) => {
     return score + additionalComplexityForCharset(password, charset);
